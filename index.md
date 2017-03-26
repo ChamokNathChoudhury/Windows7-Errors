@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+#List of common errors and solutions while using Windows 7
+
+## Can't How to delete a folder that name ended with a period/dot ('.')
+
+Solution is you can delete such folder's from windows command prompt.
+
+rd /s "\\?\C:\Documents and Settings\User\Desktop\myfolder."
+
+**Note : ** Here the folder in the system is -> ".myfolder"
 
 You can use the [editor on GitHub](https://github.com/ChamokNathChoudhury/Windows7-Errors/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
